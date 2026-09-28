@@ -2981,6 +2981,29 @@ img {
 }
 
 
+/* Achievement / certificate links */
+.achievement-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    color: var(--cyan);
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.achievement-link:hover {
+    color: var(--purple);
+    transform: translateX(3px);
+}
+
+.achievement-link i {
+    font-size: 9px;
+}
+
+
 /* =========================================================
    13. CONTACT
 ========================================================= */
